@@ -1,4 +1,4 @@
-# <img src="https://seekvectorlogo.com/wp-content/uploads/2018/05/national-oilwell-varco-nov-vector-logo.png" alt="NOV Logo" width="200"> <br/> Client Library for Event Log Microservice
+# <img src="https://github.com/pip-services/pip-services/raw/master/design/Logo.png" alt="Pip.Services Logo" style="max-width:30%"> <br/> Client Library for Event Log Microservice
 
 This client library allows to use the [service-eventlog-node](https://github.com/pip-services-infrastructure2/service-eventlog-node) microservice to store and process system events.
 
