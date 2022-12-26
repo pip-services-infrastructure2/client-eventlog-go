@@ -16,8 +16,10 @@ func NewEventLogClientFactory() *EventLogClientFactory {
 
 	nullClientDescriptor := cref.NewDescriptor("service-eventlog", "client", "null", "*", "1.0")
 	httpClientDescriptor := cref.NewDescriptor("service-eventlog", "client", "commandable-http", "*", "1.0")
+	mockClientDescriptor := cref.NewDescriptor("service-eventlog", "client", "mock", "*", "1.0")
 
 	c.RegisterType(nullClientDescriptor, version1.NewEventLogNullClientV1)
 	c.RegisterType(httpClientDescriptor, version1.NewEventLogCommandableHttpClientV1)
+	c.RegisterType(mockClientDescriptor, version1.NewEventLogMockClientV1)
 	return &c
 }
